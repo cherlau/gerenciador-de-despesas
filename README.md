@@ -1,4 +1,6 @@
-# expense-tracker
+# Gerenciador de Despesas em Vue.js
+
+<strong>Hospedado: </strong> https://cherlau-gerenciador-de-despesas.netlify.app/
 
 ## Project Setup
 
@@ -17,3 +19,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+----
+
+## 🚧 Projeto
+
+<p align="center">
+  <img src="./.github/img.png" width="900px"/>
+</p>
