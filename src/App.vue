@@ -68,7 +68,7 @@ const handleTransactionSubmitted = (transactionData) => {
 
   saveTransactionsToLocalStorage()
 
-  toast.success('Transaction added')
+  toast.success('Transação adicionada')
 }
 
 // Generate unique ID

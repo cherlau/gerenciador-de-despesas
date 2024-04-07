@@ -1,5 +1,5 @@
 <template>
-    <h3>History</h3>
+    <h3>Histórico</h3>
     <ul id="list" class="list">
         <li v-for="(transaction, key) in transactions" :key="key" :class="transaction.amount < 0 ? 'minus' : 'plus'">
             {{ transaction.text }} <span>${{ transaction.amount }}</span>

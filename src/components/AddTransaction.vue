@@ -1,20 +1,20 @@
 <template>
-    <h3>Add new transaction</h3>
+    <h3>Adicionar nova transação</h3>
     <form id="form" @submit.prevent="onSubmit">
       <div class="form-control">
-        <label for="text">Text</label>
-        <input type="text" id="text" v-model="text" placeholder="Enter text..." />
+        <label for="text">Título</label>
+        <input type="text" id="text" v-model="text" placeholder="Título da transação..." />
       </div>
       <div class="form-control">
         <label for="amount"
-          >Amount <br />
-          (negative - expense, positive - income)</label
+          >Valor <br />
+          (valor negativo - despesa, positivo - ganho)</label
         >
         <input
           type="text"
           id="amount"
           v-model="amount"
-          placeholder="Enter amount..."
+          placeholder="Insira o valor..."
         />
       </div>
       <button class="btn">Add transaction</button>
@@ -34,7 +34,7 @@ const toast = useToast()
 
 const onSubmit = () => {
   if(!text.value || !amount.value){
-    toast.error('Both fields must be filled')
+    toast.error('Ambos os campos devem estar preenchidos')
     return
   }
 
