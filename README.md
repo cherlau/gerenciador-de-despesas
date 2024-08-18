@@ -1,6 +1,6 @@
 # Gerenciador de Despesas em Vue.js
 
-<strong>Hospedado: </strong> [https://cherlau-gerenciador-de-despesas.netlify.app/](https://gerenciador-de-despesas.netlify.app/)
+<strong>Hospedado: </strong> https://gerenciador-de-despesas.netlify.app
 
 ## Project Setup
 
