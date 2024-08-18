@@ -17,7 +17,7 @@
           placeholder="Insira o valor..."
         />
       </div>
-      <button class="btn">Add transaction</button>
+      <button class="btn">Adicionar transação</button>
     </form>
   </template>
 
